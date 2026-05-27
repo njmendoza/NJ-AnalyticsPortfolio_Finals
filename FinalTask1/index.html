@@ -34,6 +34,35 @@
             background-color: #fff;
             margin-bottom: 24px;
         }
+        .steps-box {
+            background-color: #CAA6A6;
+            border: 2px solid #B47B84;
+            border-radius: 22px;
+            color: #fff;
+            padding: 28px;
+            margin-bottom: 28px;
+        }
+        .steps-box h2,
+        .screenshots-title {
+            color: #944E63;
+            font-weight: 700;
+        }
+        .step-card {
+            background-color: #FFE7E7;
+            border: 2px solid #B47B84;
+            border-radius: 18px;
+            padding: 22px;
+            margin-top: 16px;
+        }
+        .step-card h3 {
+            color: #944E63;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        .step-card p {
+            color: #504B38;
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -48,13 +77,34 @@
         <section class="task-hero">
             <div class="container text-center">
                 <h1 class="fw-bold">FINAL TASK 1</h1>
-                <p class="fs-5">Screenshots and output for Final Task 1.</p>
-                <a class="btn btn-task" href="https://github.com/njmendoza/NJ-S_PORTFOLIO/tree/HEAD/FinalTask1" target="_blank">View GitHub Folder</a>
+                <a class="btn btn-task" href="https://github.com/njmendoza/NJ-S_PORTFOLIO" target="_blank">View Uploaded Files</a>
             </div>
         </section>
 
         <section class="pb-5">
             <div class="container">
+                <div class="steps-box">
+                    <h2>Step by Step</h2>
+                    <div class="step-card">
+                        <h3>Step 1 Create and Prepare the Call Center Table</h3>
+                        <p>Load the call center dataset into the database and confirm that fields like customer name, sentiment, city, state, channel, response time, call duration, and call date are available.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 2 Preview and Count the Records</h3>
+                        <p>Run a query to show the first 10 rows, then count all records to check the total number of calls in the dataset.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 3 Group the Calls by Important Categories</h3>
+                        <p>Use SQL grouping to summarize calls by sentiment, city, state, channel, and call center so the dataset can be understood by category.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 4 Analyze Duration and Response Time</h3>
+                        <p>Calculate the minimum, maximum, and average call duration, then compare response time performance for each call center.</p>
+                    </div>
+                </div>
+                <div class="steps-box">
+                    <h2 class="screenshots-title">Here are the Screenshots</h2>
+                </div>
                 <img src="FINALTASK1%20(1).png" alt="Final Task 1 screenshot 1" class="gallery-img">
                 <img src="FINALTASK1%20(2).png" alt="Final Task 1 screenshot 2" class="gallery-img">
                 <img src="FINALTASK1%20(3).png" alt="Final Task 1 screenshot 3" class="gallery-img">

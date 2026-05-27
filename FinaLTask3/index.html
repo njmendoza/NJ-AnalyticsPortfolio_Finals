@@ -34,6 +34,35 @@
             background-color: #fff;
             margin-bottom: 24px;
         }
+        .steps-box {
+            background-color: #CAA6A6;
+            border: 2px solid #B47B84;
+            border-radius: 22px;
+            color: #fff;
+            padding: 28px;
+            margin-bottom: 28px;
+        }
+        .steps-box h2,
+        .screenshots-title {
+            color: #944E63;
+            font-weight: 700;
+        }
+        .step-card {
+            background-color: #FFE7E7;
+            border: 2px solid #B47B84;
+            border-radius: 18px;
+            padding: 22px;
+            margin-top: 16px;
+        }
+        .step-card h3 {
+            color: #944E63;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        .step-card p {
+            color: #504B38;
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -48,13 +77,34 @@
         <section class="task-hero">
             <div class="container text-center">
                 <h1 class="fw-bold">FINAL TASK 3</h1>
-                <p class="fs-5">Screenshots and output for Final Task 3.</p>
-                <a class="btn btn-task" href="https://github.com/njmendoza/NJ-S_PORTFOLIO/tree/HEAD/FinaLTask3" target="_blank">View GitHub Folder</a>
+                <a class="btn btn-task" href="https://github.com/njmendoza/NJ-S_PORTFOLIO" target="_blank">View Uploaded Files</a>
             </div>
         </section>
 
         <section class="pb-5">
             <div class="container">
+                <div class="steps-box">
+                    <h2>Step by Step</h2>
+                    <div class="step-card">
+                        <h3>Step 1 Load the Sales Dataset</h3>
+                        <p>Open the Power BI sales file and check that tables such as Sales, Date, Product, Region, Reseller, and Salesperson are available.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 2 Create the Needed Measures</h3>
+                        <p>Build measures for sales, sales YTD, year-over-year growth, average price, median price, minimum price, maximum price, orders, and order lines.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 3 Build the Matrix Report</h3>
+                        <p>Add fiscal year and month rows, then place the measures in the values area to compare performance across each time period.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 4 Format and Review the Results</h3>
+                        <p>Format currency, percentages, and totals so the report is clear and ready for analysis.</p>
+                    </div>
+                </div>
+                <div class="steps-box">
+                    <h2 class="screenshots-title">Here are the Screenshots</h2>
+                </div>
                 <img src="FINALTASK3%20(1).png" alt="Final Task 3 screenshot 1" class="gallery-img">
                 <img src="FINALTASK3%20(2).png" alt="Final Task 3 screenshot 2" class="gallery-img">
                 <img src="FINALTASK3%20(3).png" alt="Final Task 3 screenshot 3" class="gallery-img">
